@@ -19,9 +19,10 @@
     <!--<gap:platform name="android" />-->
     
     <!-- third party plugins -->
-    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
+    <!--<gap:plugin name="cordova-plugin-statusbar" source="npm" />
     <gap:plugin name="de.appplant.cordova.plugin.badge" version="0.6.2" />
-	<gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.8" />
+	<gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.8" />-->
+	<plugin name="ptdev.makingwaves2.estimotes" spec="1.0.1" source="pgb" />
 
     <!-- universal preferences -->
     <preference name="phonegap-version"           value="cli-5.2.0" />         
@@ -29,9 +30,9 @@
 	
 	<!-- ios preferences --> 
     <preference name="target-device" value="universal" />
-    <preference name="StatusBarOverlaysWebView" value="false" />
+    <!--<preference name="StatusBarOverlaysWebView" value="false" />
     
 	<gap:config-file platform="ios" parent="ITSAppUsesNonExemptEncryption" mode="add">
 		<false/>
-	</gap:config-file>
+	</gap:config-file>-->
 </widget>
